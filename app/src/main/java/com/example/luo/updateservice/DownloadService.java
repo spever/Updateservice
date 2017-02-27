@@ -24,6 +24,9 @@ import java.io.RandomAccessFile;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+/**
+ * 更新服务service
+ */
 public class DownloadService extends Service {
     public static final String DOWNLOAD_PATH =
             Environment.getExternalStorageDirectory().getAbsolutePath() +
